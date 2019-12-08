@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/pierreBourdet/static/css/main.d1b05096.chunk.css",
+    "main.js": "/pierreBourdet/static/js/main.12e96541.chunk.js",
+    "main.js.map": "/pierreBourdet/static/js/main.12e96541.chunk.js.map",
+    "runtime-main.js": "/pierreBourdet/static/js/runtime-main.80d2289d.js",
+    "runtime-main.js.map": "/pierreBourdet/static/js/runtime-main.80d2289d.js.map",
+    "static/js/2.250dc4af.chunk.js": "/pierreBourdet/static/js/2.250dc4af.chunk.js",
+    "static/js/2.250dc4af.chunk.js.map": "/pierreBourdet/static/js/2.250dc4af.chunk.js.map",
+    "index.html": "/pierreBourdet/index.html",
+    "precache-manifest.a88e905ffdf0563098163e1b8f46df74.js": "/pierreBourdet/precache-manifest.a88e905ffdf0563098163e1b8f46df74.js",
+    "service-worker.js": "/pierreBourdet/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/pierreBourdet/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.250dc4af.chunk.js.LICENSE": "/pierreBourdet/static/js/2.250dc4af.chunk.js.LICENSE",
+    "static/media/logo.svg": "/pierreBourdet/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.80d2289d.js",
+    "static/js/2.250dc4af.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.12e96541.chunk.js"
+  ]
+}
