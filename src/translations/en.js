@@ -1,5 +1,7 @@
 export default {
-    test: {
-        welcome: 'Welcome',
+    header: {
+        title: 'Web developer',
     },
+
+    test: 'Test',
 };
