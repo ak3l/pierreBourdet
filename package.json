@@ -1,49 +1,55 @@
 {
-  "name": "pierrebourdet",
-  "version": "0.1.0",
-  "private": true,
-  "homepage": "https://ak3l.github.io/pierreBourdet",
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build",
-    "lint": "eslint --ext .js,.jsx --fix ."
-  },
-  "dependencies": {
-    "@material-ui/core": "^4.7.2",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "eslint-plugin-prettier": "^3.1.1",
-    "gh-pages": "^2.1.1",
-    "prettier": "^1.19.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-scripts": "3.3.0",
-    "typescript": "^3.7.3"
-  },
-  "eslintConfig": {
-    "extends": "react-app",
-    "plugins": [
-      "prettier"
-    ],
-    "rules": {
-      "prettier/prettier": "error"
+    "name": "pierrebourdet",
+    "version": "0.1.0",
+    "private": true,
+    "homepage": "https://ak3l.github.io/pierreBourdet",
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "predeploy": "yarn run build",
+        "deploy": "gh-pages -d build",
+        "lint": "eslint --ext .js,.jsx --fix ."
+    },
+    "dependencies": {
+        "@material-ui/core": "^4.7.2",
+        "enzyme": "^3.10.0",
+        "enzyme-adapter-react-16": "^1.15.1",
+        "enzyme-to-json": "^3.4.3",
+        "eslint-plugin-prettier": "^3.1.1",
+        "gh-pages": "^2.1.1",
+        "jest": "^24.9.0",
+        "prettier": "^1.19.1",
+        "react": "^16.12.0",
+        "react-dom": "^16.12.0",
+        "react-scripts": "3.3.0",
+        "typescript": "^3.7.3"
+    },
+    "eslintConfig": {
+        "extends": "react-app",
+        "plugins": [
+            "prettier"
+        ],
+        "rules": {
+            "prettier/prettier": "error"
+        }
+    },
+    "jest": {
+        "snapshotSerializers": [
+            "enzyme-to-json/serializer"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
     }
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
 }
