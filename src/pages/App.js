@@ -1,23 +1,25 @@
 import React from 'react';
 import { IntlProvider, FormattedMessage } from 'react-intl';
-import Button from '@material-ui/core/Button'
-import translations from '../translations';
 import Header from '../components/Header';
-import './App.scss';
+import Line from '../components/Line';
+import Section from '../components/Section';
+import translations from '../translations';
 
 const App = () => {
     const [locale, changeLocale] = React.useState('fr');
 
     return (
         <IntlProvider locale={locale} messages={translations[locale]}>
+            <Header/>
             <div className="mb-2 p-1">
-                <Button size="small" variant="contained" onClick={() => changeLocale('fr')}>FR</Button>
-                <Button size="small" variant="contained" onClick={() => changeLocale('en')}>EN</Button>
+                <button onClick={() => changeLocale('fr')}>FR</button>
+                <button onClick={() => changeLocale('en')}>EN</button>
             </div>
             <FormattedMessage id="test.welcome" />
-            <div className="App">
-                <Header />
-            </div>
+            <Section title={<FormattedMessage id="todo" />}>
+                <Line />
+                <Line />
+            </Section>
         </IntlProvider>
     );
 };
