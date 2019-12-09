@@ -25,7 +25,6 @@ const App = () => {
                 )}
             </div>
             <Header/>
-            <FormattedMessage id="test" />
             <Section title={<FormattedMessage  id="test" />}>
                 <Line />
                 <Line />
