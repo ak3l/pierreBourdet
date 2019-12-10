@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/pierreBourdet/static/css/main.43b50fcc.chunk.css",
-    "main.js": "/pierreBourdet/static/js/main.4a728ebf.chunk.js",
-    "main.js.map": "/pierreBourdet/static/js/main.4a728ebf.chunk.js.map",
+    "main.js": "/pierreBourdet/static/js/main.5d90aa28.chunk.js",
+    "main.js.map": "/pierreBourdet/static/js/main.5d90aa28.chunk.js.map",
     "runtime-main.js": "/pierreBourdet/static/js/runtime-main.96fac441.js",
     "runtime-main.js.map": "/pierreBourdet/static/js/runtime-main.96fac441.js.map",
-    "static/js/2.8e1fa57f.chunk.js": "/pierreBourdet/static/js/2.8e1fa57f.chunk.js",
-    "static/js/2.8e1fa57f.chunk.js.map": "/pierreBourdet/static/js/2.8e1fa57f.chunk.js.map",
+    "static/js/2.1670b2f7.chunk.js": "/pierreBourdet/static/js/2.1670b2f7.chunk.js",
+    "static/js/2.1670b2f7.chunk.js.map": "/pierreBourdet/static/js/2.1670b2f7.chunk.js.map",
     "index.html": "/pierreBourdet/index.html",
-    "precache-manifest.0d4f67b5c14b3e629db4a1e93ef52d67.js": "/pierreBourdet/precache-manifest.0d4f67b5c14b3e629db4a1e93ef52d67.js",
+    "precache-manifest.21deb4a1313c08e16dcdc38e3c082da1.js": "/pierreBourdet/precache-manifest.21deb4a1313c08e16dcdc38e3c082da1.js",
     "service-worker.js": "/pierreBourdet/service-worker.js",
     "static/css/main.43b50fcc.chunk.css.map": "/pierreBourdet/static/css/main.43b50fcc.chunk.css.map",
-    "static/js/2.8e1fa57f.chunk.js.LICENSE": "/pierreBourdet/static/js/2.8e1fa57f.chunk.js.LICENSE",
+    "static/js/2.1670b2f7.chunk.js.LICENSE": "/pierreBourdet/static/js/2.1670b2f7.chunk.js.LICENSE",
     "static/media/id.jpg": "/pierreBourdet/static/media/id.3a754b01.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.96fac441.js",
-    "static/js/2.8e1fa57f.chunk.js",
+    "static/js/2.1670b2f7.chunk.js",
     "static/css/main.43b50fcc.chunk.css",
-    "static/js/main.4a728ebf.chunk.js"
+    "static/js/main.5d90aa28.chunk.js"
   ]
 }
