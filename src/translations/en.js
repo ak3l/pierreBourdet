@@ -3,5 +3,11 @@ export default {
         title: 'Web developer',
     },
 
-    test: 'Test',
+    experiences: {
+        title: 'Professional experiences',
+    },
+
+    education: {
+        title: 'Education & Training'
+    }
 };

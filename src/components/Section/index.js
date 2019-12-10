@@ -1,33 +1,37 @@
 import React, { useState } from 'react';
 import { Collapse, Button, CardBody, Card } from 'reactstrap';
-import chevrondown from '../../img/chevrondown.png'
-import chevronup from '../../img/chevronup.png'
+import img from '../../img';
 
 const Section = ({ title, children }) => {
-    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(true);
 
     const toggle = () => setIsOpen(!isOpen);
-    console.log(isOpen)
 
     return (
-        <div className="container">
-            <div className="row justify-content-center">
-                <div className="col-12 text-center">
-                    <span className="h3 mr-3">{title}</span>
+        <div className="container mb-3">
+            <div className="row justify-content-start">
+                <div className="col-9 text-center">
+                    <p className="h5 mr-3">{title}</p>
+                </div>
+                <div className="col-3">
                     <span className="border pt-2">
-                    <Button color="link" size="sm" onClick={toggle} style={{ marginBottom: '1rem' }}>
-                        {!isOpen ? (<img alt="chevrondown" src={chevrondown} />)
-                            : (<img alt="chevronup" src={chevronup} />)}
-                    </Button>
+                        <Button
+                            color="link"
+                            size="sm"
+                            onClick={toggle}
+                            style={{ marginBottom: '1rem' }}>
+                            {!isOpen ? (
+                                <img alt="chevrondown" src={img.chevron.down} />
+                            ) : (
+                                <img alt="chevronup" src={img.chevron.up} />
+                            )}
+                        </Button>
                     </span>
-
                 </div>
             </div>
             <Collapse isOpen={isOpen}>
                 <Card>
-                    <CardBody>
-                        {children}
-                    </CardBody>
+                    <CardBody>{children}</CardBody>
                 </Card>
             </Collapse>
         </div>
