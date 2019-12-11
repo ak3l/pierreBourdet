@@ -157,9 +157,6 @@ const App = () => {
                     </div>
                 </div>
             </Section>
-
-            <Section title={<FormattedMessage id="hobbies.title" />}>
-            </Section>
         </IntlProvider>
     );
 };
