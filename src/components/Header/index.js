@@ -1,12 +1,10 @@
-import './index.scss';
 import React from 'react';
-import Jumbotron from 'reactstrap/es/Jumbotron';
 import { FormattedMessage } from 'react-intl';
 import img from '../../img';
 
 const Header = () => {
     return (
-        <Jumbotron>
+        <div className="jumbotron p-4">
             <div className="container">
                 <div className="row d-flex align-items-center justify-content-around">
                     <div className="col-sm-4 d-none d-sm-block">
@@ -25,11 +23,11 @@ const Header = () => {
                         </p>
                     </div>
                     <div className="col-sm-3 d-none d-md-block">
-                        <img alt="id" src={img.id} className="img-thumbnail" />
+                        <img alt="id" src={img.id} className="img-thumbnail" height="100" width="100" />
                     </div>
                 </div>
             </div>
-        </Jumbotron>
+        </div>
     );
 };
 

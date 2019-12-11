@@ -8,22 +8,22 @@ const Section = ({ title, children }) => {
     const toggle = () => setIsOpen(!isOpen);
 
     return (
-        <div className="container mb-3">
+        <div className="container mb-4">
             <div className="row justify-content-start">
                 <div className="col-9 text-center">
                     <p className="h5 mr-3">{title}</p>
                 </div>
                 <div className="col-3">
-                    <span className="border pt-2">
+                    <span className="border pb-1">
                         <Button
                             color="link"
                             size="sm"
                             onClick={toggle}
-                            style={{ marginBottom: '1rem' }}>
+                            style={{ marginBottom: '2px' }}>
                             {!isOpen ? (
-                                <img alt="chevrondown" src={img.chevron.down} />
+                                <img alt="chevrondown" src={img.chevron.up} />
                             ) : (
-                                <img alt="chevronup" src={img.chevron.up} />
+                                <img alt="chevronup" src={img.chevron.down} />
                             )}
                         </Button>
                     </span>
